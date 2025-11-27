@@ -1,23 +1,23 @@
-# 🌍 Renewable Energy Forecasting & Climate Data Modelling (2025–2035)
+# Renewable Energy Forecasting & Climate Data Modelling (2025–2035)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/AishikDas2104/Renewable-Energy-Forecasting-Climate-Data-Modelling-2025-2035-)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📋 Overview
+## Overview
 
 This project provides a comprehensive data-driven analysis and forecasting framework for **renewable energy generation in Paris** from 2025 to 2035. It models **solar and wind energy production** using historical climate data and future projections to estimate the potential for sustainable energy transition.
 
 ### Key Features
 
-- 🌞 **Solar Energy Modeling**: Estimates rooftop solar PV generation based on irradiance data
-- 💨 **Wind Energy Forecasting**: Predicts wind turbine power output using wind speed data
-- 📊 **Climate Data Integration**: Utilizes historical and projected climate datasets
-- 🎯 **Multiple Scenarios**: Evaluates conservative, realistic, and aggressive adoption scenarios
-- 💰 **Cost & Emissions Analysis**: Compares renewable vs. fossil fuel economics and environmental impact
-- 📈 **Future Projections**: Models energy generation potential through 2035
+- **Solar Energy Modeling**: Estimates rooftop solar PV generation based on irradiance data
+- **Wind Energy Forecasting**: Predicts wind turbine power output using wind speed data
+- **Climate Data Integration**: Utilizes historical and projected climate datasets
+- **Multiple Scenarios**: Evaluates conservative, realistic, and aggressive adoption scenarios
+- **Cost & Emissions Analysis**: Compares renewable vs. fossil fuel economics and environmental impact
+- **Future Projections**: Models energy generation potential through 2035
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 green_energy_paris/
@@ -31,7 +31,7 @@ green_energy_paris/
 └── requirements.txt           # Python dependencies
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The project uses a flexible configuration system defined in [`config/settings.yaml`](config/settings.yaml):
 
@@ -60,7 +60,7 @@ The project uses a flexible configuration system defined in [`config/settings.ya
   - Solar PV: €45
   - Wind: €60
 
-## 📊 Data Sources
+## Data Sources
 
 This project analyzes climate data for Paris, including:
 - Solar irradiance (W/m²)
@@ -69,7 +69,7 @@ This project analyzes climate data for Paris, including:
 - Historical weather patterns
 - Climate projection models
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -108,7 +108,7 @@ This project analyzes climate data for Paris, including:
 
 5. **Open and run** `notebooks/01_data_cleaning.ipynb`
 
-## 📈 Analysis Workflow
+## Analysis Workflow
 
 1. **Data Acquisition**: Collect historical climate data for Paris
 2. **Data Cleaning**: Process and validate climate datasets
@@ -120,7 +120,7 @@ This project analyzes climate data for Paris, including:
 6. **Economic & Environmental Impact**: Assess costs and emissions reductions
 7. **Future Projections**: Forecast renewable energy potential through 2035
 
-## 🎯 Scenarios
+## Scenarios
 
 The project evaluates three deployment scenarios:
 
@@ -132,7 +132,7 @@ The project evaluates three deployment scenarios:
 
 The **active scenario** (default: aggressive) can be configured in `config/settings.yaml`.
 
-## 📊 Expected Outcomes
+## Expected Outcomes
 
 This analysis aims to provide:
 - Annual renewable energy generation estimates (GWh/year)
@@ -142,7 +142,7 @@ This analysis aims to provide:
 - Monthly and seasonal generation patterns
 - Feasibility assessment for different scenarios
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
@@ -152,22 +152,22 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Aishik Das**
 - GitHub: [@AishikDas2104](https://github.com/AishikDas2104)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Climate data providers
 - Renewable energy research community
 - Open-source Python data science ecosystem
 
-## 📚 Future Work
+## Future Work
 
 - [ ] Integration with real-time weather APIs
 - [ ] Machine learning models for demand forecasting
@@ -178,4 +178,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ If you find this project useful, please consider giving it a star!**
+**If you find this project useful, please consider giving it a star!**
