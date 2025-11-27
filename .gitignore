@@ -1,14 +1,139 @@
-# Do NOT push large data
+# ========================================
+# Data Files (DO NOT PUSH LARGE DATA)
+# ========================================
 data_raw/
 data_processed/
+raw data/
 *.csv
 *.xlsx
+*.xls
 *.zip
+*.tar.gz
 *.pkl
+*.pickle
+*.h5
+*.hdf5
+*.nc
+*.parquet
 
-# Python cache
+# ========================================
+# Python
+# ========================================
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 
-# MLflow tracking artifacts
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# ========================================
+# Jupyter Notebook
+# ========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Jupyter Notebook metadata
+.jupyter/
+
+# ========================================
+# Machine Learning / MLOps
+# ========================================
+# MLflow
 mlruns/
+mlartifacts/
+
+# Weights and models
+*.model
+*.weights
+*.ckpt
+*.pth
+*.pt
+
+# Experiment tracking
+wandb/
+.neptune/
+
+# ========================================
+# IDEs and Editors
+# ========================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Lab
+.jupyterlab/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ========================================
+# Operating System Files
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ========================================
+# Temporary and Log Files
+# ========================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ========================================
+# Project Specific
+# ========================================
+# Command history
+comm.txt
+
+# Output files
+outputs/
+results/
+figures/
+
+# Cache directories
+.cache/
